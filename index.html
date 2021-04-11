@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Deserto - tudo sobre os desertos mais famosos</title>
+</head>
+<body>
+    <div class="container" id="slyder">
+        <div class="menu">
+            <div><h1>Desertos</h1></div>
+            <img src="img/menu.png" alt="" width="40px" height="40px" onmouseover="showMenu()">
+        </div>
+        <div class="ShowMenu" id="menu" onmouseover="showMenu()" onmouseout="closeMenu()">
+            <ul>
+                <li>Paisagens</li>
+                <li>Locais</li>
+                <li>Viagens</li>
+                <li>Turismo</li>
+                <li>História</li>
+            </ul>
+        </div>
+        <div class="container-main-2">
+            <div class="search-content">
+                <img src="img/lupa-arredondada.png" alt="" class="search">
+                <input type="text" placeholder="Pesquisar" id="search">
+            </div>
+
+        </div>
+    </div>
+    <section class="section-1">
+        <div onmouseover="up(this)" onmouseout="removeClass(this)">
+            <img src="img/saara.jpg" alt="" width="450px" height="300px" class="img-content">
+            <h3>Foto de 2015</h3>
+        </div>
+        <div class="content-1">
+            <h1>Deserto do Saara</h1>
+            <p>O Deserto do Saara ou Deserto do Sara, 
+                ou Deserto do Sáara é conhecido por ser 
+                o maior deserto quente do mundo. Oficialmente, 
+                é o terceiro maior deserto da Terra, logo após a 
+                 Antártida e o Ártico, pois estas duas também 
+                 são consideradas desertos.</p>
+        </div>
+    </section>
+    <section class="section-1">
+        <div class="content-1">
+            <h1>Deserto do Gobi</h1>
+            <p>O Deserto de Gobi é um extenso deserto situado 
+                na região norte da República Popular da China 
+                e região sul da Mongólia. A palavra Gobi significa 
+                deserto, em mongol. Está entre os 5 maiores desertos 
+                do mundo, sendo o deserto de Gobi o 5º.</p>
+        </div>
+        <div onmouseover="up(this)" onmouseout="removeClass(this)">
+            <img src="img/gobi.jpg" alt="" width="450px" height="300px" class="img-content">
+            <h3>Imagem de 2018</h3>
+        </div>
+    </section>
+    <section class="section-1">
+        <div onmouseover="up(this)" onmouseout="removeClass(this)">
+            <img src="img/arabia.jpg" alt="" width="450px" height="300px" class="img-content">
+            <h3>Imagem de 2020</h3>
+        </div>
+        <div class="content-1">
+            <h1>Deserto do Arábia</h1>
+            <p>O Deserto da Arábia, ou ainda, Deserto Arábico 
+                é um deserto imenso que se estende do Iêmen até 
+                a Jordânia e o Iraque. Ele ocupa a maior parte
+                 da Arábia Saudita, com uma superfície de 2 330 000 km².
+                  No seu centro está o Rub al-Khali, um dos maiores corpos 
+                  contínuos de areia no mundo.</p>
+        </div>
+    </section>
+    <div class="piramide"></div>
+    <div class="desert"></div>
+
+    <div class="footer"><h2>&copy;Jefferson Alves</h2></div>
+    
+
+    <div id="teste">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
